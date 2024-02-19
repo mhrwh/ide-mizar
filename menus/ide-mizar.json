@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "verifier",
+        "command": "ide-mizar:verifier"
+      },
+      {
+        "label": "stop-command",
+        "command": "stop-command"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ide-mizar",
+          "submenu": [
+            {
+              "label": "verifier",
+              "command": "verifier"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
